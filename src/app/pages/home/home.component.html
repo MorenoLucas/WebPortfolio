@@ -1,0 +1,23 @@
+<div class="presentacion" *ngIf="presentacion">
+  <p class="tituloPresentacion">
+    <span class="spanPresentacion"> Lucas Moreno </span>
+    &mdash; Front End Developer &mdash;
+  </p>
+</div>
+<header>
+  <span class="titulo"> LUCAS MORENO </span>
+</header>
+<ul class="nav justify-content-center m-5 bg-6">
+  <li class="nav-item">
+    <a class="nav-link" (click)="mostrarProject()">Proyectos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" (click)="mostrarAbout()">Sobre mi</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" (click)="mostrarContact()">Contacto</a>
+  </li>
+</ul>
+<app-projects *ngIf="projects" (click)="mostrarProject()"></app-projects>
+<app-about *ngIf="about" (click)="mostrarAbout()"></app-about>
+<app-contact *ngIf="contact" (click)="mostrarContact()"></app-contact>
