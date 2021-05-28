@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/firestore';
+// import { AngularFirestore } from '@angular/fire/firestore';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -10,7 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class ContactComponent implements OnInit {
   firstFormGroup: FormGroup;
 
-  constructor(private db: AngularFirestore, private _formBuilder: FormBuilder) {
+  constructor(private _formBuilder: FormBuilder) {
     this.firstFormGroup = this._formBuilder.group({
       nombre: ['', Validators.required],
       email: ['', Validators.required],
@@ -25,6 +25,6 @@ export class ContactComponent implements OnInit {
     console.log('data', data);
 
     // insertar en la base de datos y obtenemos la id del pedido
-    await this.db.collection('Mensajes').add(data);
+    // await this.db.collection('Mensajes').add(data);
   }
 }
