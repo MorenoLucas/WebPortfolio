@@ -12,7 +12,14 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ProjectsComponent, AboutComponent, ContactComponent, PrincipalComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ProjectsComponent,
+    AboutComponent,
+    ContactComponent,
+    PrincipalComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
