@@ -17,6 +17,10 @@ p {
   animation-iteration-count: infinite;
 }
 
+#aler {
+  font-size: 0.85em;
+}
+
 span {
   text-align: center;
   font: 700 4em/1 "Oswald", sans-serif;
