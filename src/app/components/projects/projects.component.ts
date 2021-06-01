@@ -16,4 +16,10 @@ export class ProjectsComponent implements OnInit {
   goTienda() {
     window.open('https://tienda-bolsos.web.app/productos', '_blank');
   }
+  goJuego() {
+    window.open('https://rover-mars-88d4d.web.app/home', '_blank');
+  }
+  goChiste() {
+    window.open('https://expvc.csb.app/', '_blank');
+  }
 }
