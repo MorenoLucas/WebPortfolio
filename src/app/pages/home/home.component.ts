@@ -50,4 +50,11 @@ export class HomeComponent implements OnInit {
     this.alert = false;
     this.logos = false;
   }
+  todo() {
+    this.contact = false;
+    this.projects = false;
+    this.about = false;
+    this.alert = false;
+    this.logos = true;
+  }
 }
