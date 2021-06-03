@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { FB_CONFIG } from '../../credenciales';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(config),
+    AngularFireModule.initializeApp(FB_CONFIG),
     AngularFirestoreModule,
   ],
   providers: [],

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "thisislucas-fa4ec"
+  },
+  "targets": {
+    "thisislucas-fa4ec": {
+      "hosting": {
+        "ThisisLucas": [
+          "thisislucas-fa4ec"
+        ]
+      }
+    }
   }
 }

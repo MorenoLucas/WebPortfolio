@@ -373,14 +373,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "mrSG");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ "I/3d");
 
-// import { AngularFirestore } from '@angular/fire/firestore';
+
 
 
 
 class ContactComponent {
-    constructor(_formBuilder) {
+    constructor(_formBuilder, db) {
         this._formBuilder = _formBuilder;
+        this.db = db;
         this.firstFormGroup = this._formBuilder.group({
             nombre: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
             email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
@@ -394,11 +396,11 @@ class ContactComponent {
             const data = this.firstFormGroup.getRawValue();
             console.log('data', data);
             // insertar en la base de datos y obtenemos la id del pedido
-            // await this.db.collection('Mensajes').add(data);
+            yield this.db.collection('Mensajes').add(data);
         });
     }
 }
-ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"])); };
+ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"])); };
 ContactComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 18, vars: 2, consts: [[1, "contacto"], [1, "flex", "w-full", "max-w-sm", "space-x-3", 3, "formGroup"], [1, "w-full", "max-w-2xl", "px-5", "py-10", "m-auto", "mt-10", "bg-white", "rounded-lg", "shadow", "dark:bg-gray-800"], [1, "mb-6", "text-3xl", "font-light", "font-mono", "text-center", "text-gray-800", "dark:text-white"], [1, "grid", "max-w-xl", "grid-cols-2", "gap-4", "m-auto"], [1, "col-span-2", "lg:col-span-1"], [1, "relative"], ["type", "text", "id", "contact-form-name", "placeholder", "Nombre", "formControlName", "nombre", 1, "rounded-lg", "border-transparent", "flex-1", "appearance-none", "border", "border-gray-300", "w-full", "py-2", "px-4", "bg-white", "text-gray-700", "placeholder-gray-400", "shadow-sm", "text-base", "focus:outline-none", "focus:ring-2", "focus:ring-gray-600", "focus:border-transparent"], ["type", "text", "id", "contact-form-email", "placeholder", "Email", "formControlName", "email", 1, "rounded-lg", "border-transparent", "flex-1", "appearance-none", "border", "border-gray-300", "w-full", "py-2", "px-4", "bg-white", "text-gray-700", "placeholder-gray-400", "shadow-sm", "text-base", "focus:outline-none", "focus:ring-2", "focus:ring-gray-600", "focus:border-transparent"], [1, "col-span-2"], ["for", "name", 1, "text-gray-700"], ["id", "comment", "placeholder", "Dejame un comentario", "name", "comment", "rows", "5", "cols", "40", "formControlName", "texto", 1, "flex-1", "appearance-none", "border", "border-gray-300", "w-full", "py-2", "px-4", "bg-white", "text-gray-700", "placeholder-gray-400", "rounded-lg", "text-base", "focus:outline-none", "focus:ring-2", "focus:ring-gray-600", "focus:border-transparent"], [1, "col-span-2", "text-right"], ["type", "submit", 1, "py-2", "px-4", "bg-gray-600", "hover:bg-gray-700", "focus:ring-gray-500", "focus:ring-offset-gray-200", "text-white", "w-full", "transition", "ease-in", "duration-200", "text-center", "text-base", "font-semibold", "shadow-md", "focus:outline-none", "focus:ring-2", "focus:ring-offset-2", "rounded-lg", 3, "disabled", "click"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "form", 1);
@@ -480,15 +482,17 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
-/* harmony import */ var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/home/home.component */ "1LmZ");
-/* harmony import */ var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/projects/projects.component */ "6bE9");
-/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/about/about.component */ "+DhY");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
-/* harmony import */ var _components_principal_principal_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/principal/principal.component */ "t9EU");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/fire */ "spgP");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "I/3d");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/home/home.component */ "1LmZ");
+/* harmony import */ var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/projects/projects.component */ "6bE9");
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/about/about.component */ "+DhY");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
+/* harmony import */ var _components_principal_principal_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/principal/principal.component */ "t9EU");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -499,17 +503,40 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+const config = {
+    apiKey: 'AIzaSyB9KZzd7FhEdo_fHzAeNyfCwjTrboC2E2o',
+    authDomain: 'thisislucas-fa4ec.firebaseapp.com',
+    databaseURL: 'https://thisislucas-fa4ec.firebaseio.com',
+    projectId: 'thisislucas-fa4ec',
+    storageBucket: 'thisislucas-fa4ec.appspot.com',
+    messagingSenderId: '537879629915',
+    appId: '1:537879629915:web:7c1d65814ace950c9daf7e',
+    measurementId: 'G-CPHV09Q4GJ',
+};
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineInjector"]({ providers: [], imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
-        _pages_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"],
-        _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"],
-        _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"],
-        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"],
-        _components_principal_principal_component__WEBPACK_IMPORTED_MODULE_8__["PrincipalComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"]] }); })();
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ providers: [], imports: [[
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
+            _angular_fire__WEBPACK_IMPORTED_MODULE_1__["AngularFireModule"].initializeApp(config),
+            _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestoreModule"],
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+        _pages_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
+        _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"],
+        _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
+        _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"],
+        _components_principal_principal_component__WEBPACK_IMPORTED_MODULE_10__["PrincipalComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_1__["AngularFireModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestoreModule"]] }); })();
 
 
 /***/ }),
