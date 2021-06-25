@@ -243,6 +243,30 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 
 /***/ }),
 
+/***/ "6G/e":
+/*!*************************!*\
+  !*** ./credenciales.ts ***!
+  \*************************/
+/*! exports provided: FB_CONFIG */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FB_CONFIG", function() { return FB_CONFIG; });
+const FB_CONFIG = {
+    apiKey: 'AIzaSyB9KZzd7FhEdo_fHzAeNyfCwjTrboC2E2o',
+    authDomain: 'thisislucas-fa4ec.firebaseapp.com',
+    databaseURL: 'https://thisislucas-fa4ec.firebaseio.com',
+    projectId: 'thisislucas-fa4ec',
+    storageBucket: 'thisislucas-fa4ec.appspot.com',
+    messagingSenderId: '537879629915',
+    appId: '1:537879629915:web:7c1d65814ace950c9daf7e',
+    measurementId: 'G-CPHV09Q4GJ',
+};
+
+
+/***/ }),
+
 /***/ "6bE9":
 /*!***********************************************************!*\
   !*** ./src/app/components/projects/projects.component.ts ***!
@@ -492,7 +516,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/about/about.component */ "+DhY");
 /* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact/contact.component */ "G2Gn");
 /* harmony import */ var _components_principal_principal_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/principal/principal.component */ "t9EU");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _credenciales__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../credenciales */ "6G/e");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -506,29 +531,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const config = {
-    apiKey: 'AIzaSyB9KZzd7FhEdo_fHzAeNyfCwjTrboC2E2o',
-    authDomain: 'thisislucas-fa4ec.firebaseapp.com',
-    databaseURL: 'https://thisislucas-fa4ec.firebaseio.com',
-    projectId: 'thisislucas-fa4ec',
-    storageBucket: 'thisislucas-fa4ec.appspot.com',
-    messagingSenderId: '537879629915',
-    appId: '1:537879629915:web:7c1d65814ace950c9daf7e',
-    measurementId: 'G-CPHV09Q4GJ',
-};
+
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ providers: [], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({ providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
-            _angular_fire__WEBPACK_IMPORTED_MODULE_1__["AngularFireModule"].initializeApp(config),
+            _angular_fire__WEBPACK_IMPORTED_MODULE_1__["AngularFireModule"].initializeApp(_credenciales__WEBPACK_IMPORTED_MODULE_11__["FB_CONFIG"]),
             _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestoreModule"],
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
         _pages_home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
         _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_7__["ProjectsComponent"],
         _components_about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
