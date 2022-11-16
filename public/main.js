@@ -30,7 +30,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Front End Developer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Desde ni\u00F1o me gusta la tecnolog\u00EDa, siempre estuve pendiente a los lanzamientos y novedades relacionadas, mi curiosidad me llevo a estudiar una tecnicatura en inform\u00E1tica. Si bien comenc\u00E9 luego la carrera de ingenier\u00EDa en inform\u00E1tica en ese momento trabajaba como administrativo-comercial y tuve que postergarlo. Llegue a Espa\u00F1a hace dos a\u00F1os y a consecuencia de la pandemia pude retomar mis estudios relacionado a lo que realmente me gusta. Realice cursos virtuales de HTML/CSS, JAVASCRIPT, REACT, FIREBASE y potencie este aprendizaje con el bootcamp de Barcelona Activa de 600 hs de programador Front-End en el que realizamos dise\u00F1os Web Responsive, programamos con los lenguajes de HTML/CSS, JAVASCRIPT, TYPESCRIPT, ANGULAR, utilizamos GIT y la metodolog\u00EDa agile. Hoy por hoy me siento con el conocimiento suficiente para decir que soy Desarrollador Web, me motiva crecer en este ambiente y aprender cada d\u00EDa. Fan\u00E1tico del codigo limpio, metodologia \u00E1giles y trabajo en equipo. En mi GitHub podr\u00E1n encontrar proyectos propios. Creo que el \u00E9xito profesional se logra d\u00EDa tras d\u00EDa y parte de ello es formar parte de un equipo de personas exitosas. Si te gusta mi trabajo no dudes en contactarme. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Desde ni\u00F1o me gusta la tecnolog\u00EDa, siempre estuve pendiente a los lanzamientos y novedades relacionadas, mi curiosidad me llevo a estudiar una tecnicatura en inform\u00E1tica. Si bien comenc\u00E9 luego la carrera de ingenier\u00EDa en inform\u00E1tica en ese momento trabajaba como administrativo-comercial y tuve que postergarlo. Llegue a Espa\u00F1a hace dos a\u00F1os y a consecuencia de la pandemia pude retomar mis estudios relacionado a lo que realmente me gusta. Realice cursos virtuales de HTML/CSS, JAVASCRIPT, REACT, FIREBASE y potencie este aprendizaje con el bootcamp de Barcelona Activa de 600 hs de programador Front-End en el que realizamos dise\u00F1os Web Responsive, programamos con los lenguajes de HTML/CSS, JAVASCRIPT, TYPESCRIPT, ANGULAR, utilizamos GIT y la metodolog\u00EDa agile. Actualmente trabajo en la compa\u00F1ia Averlance S.L como 'Front-End Devloper', realizando proyectos de ecommerce, apps mobile, mantenimiento de sitios web, refactorizaci\u00F3n codigo. Fan\u00E1tico del codigo limpio, metodologia \u00E1giles y trabajo en equipo. En mi GitHub podr\u00E1n encontrar proyectos propios. Creo que el \u00E9xito profesional se logra d\u00EDa tras d\u00EDa y parte de ello es formar parte de un equipo de personas exitosas. Si te gusta mi trabajo no dudes en contactarme. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 8);
@@ -69,7 +69,7 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/lucas/Documents/ Portfolio/ThisisLucas/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /Users/lucas/Documents/Portfolio/ThisisLucas/src/main.ts */"zUnb");
 
 
 /***/ }),
@@ -287,7 +287,7 @@ class ProjectsComponent {
     }
     ngOnInit() { }
     goEmigrando() {
-        window.open('https://www.emigrandoenpareja.es', '_blank');
+        window.open('https://emigrandoweb-139b8.web.app/', '_blank');
     }
     goTienda() {
         window.open('https://tienda-bolsos.web.app/productos', '_blank');
@@ -574,7 +574,7 @@ class PrincipalComponent {
     ngOnInit() { }
 }
 PrincipalComponent.ɵfac = function PrincipalComponent_Factory(t) { return new (t || PrincipalComponent)(); };
-PrincipalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrincipalComponent, selectors: [["app-principal"]], decls: 47, vars: 0, consts: [["id", "contenedor", 1, "max-w-screen-lg", "p-4", "bg-white", "dark:bg-gray-800", "mx-auto", "px-4", "sm:px-6", "lg:px-8", "relative", "py-26", "lg:mt-20"], [1, "relative"], [1, "lg:grid", "lg:grid-flow-row-dense", "lg:grid-cols-2", "lg:gap-8", "lg:items-center"], [1, "lg:col-start-2", "lg:max-w-2xl", "ml-auto"], [1, "text-base", "leading-6", "text-gray-500", "font-semibold", "uppercase"], [1, "mt-2", "text-2xl", "leading-8", "font-mono", "font-extrabold", "text-gray-900", "dark:text-white", "sm:text-3xl", "sm:leading-9", "uppercase"], [1, "mt-4", "text-lg", "leading-6", "text-gray-500", "dark:text-gray-300"], [1, "mt-8", "md:grid", "md:grid-cols-2", "gap-6"], [1, "mt-6", "lg:mt-0"], [1, "flex"], [1, "flex-shrink-0", "flex", "items-center", "justify-center", "h-6", "w-6", "rounded-full", "bg-green-100", "text-green-800", "dark:text-green-500", "drark:bg-transparent"], ["viewBox", "0 0 20 20", "fill", "currentColor", 1, "h-4", "w-4"], ["fill-rule", "evenodd", "d", "M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z", "clip-rule", "evenodd"], [1, "ml-4", "text-base", "leading-6", "font-medium", "text-gray-500", "dark:text-gray-200"], [1, "mt-10", "lg:-mx-4", "relative", "relative-20", "lg:mt-0", "lg:col-start-1"], [1, "flex", "items-center", "mt-10", "lg:-mx-4", "gap-8", "p-8"], ["src", "../../../assets/fotocv2.jpeg", "alt", "Tree", 1, "rounded-lg", "w-1/2"], ["src", "../../../assets/IMG_9221.JPG", "alt", "Tree", 1, "rounded-lg", "mb-8"], ["src", "../../../assets/fotoarriba.jpeg", "alt", "Tree", 1, "rounded-lg"]], template: function PrincipalComponent_Template(rf, ctx) { if (rf & 1) {
+PrincipalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PrincipalComponent, selectors: [["app-principal"]], decls: 61, vars: 0, consts: [["id", "contenedor", 1, "max-w-screen-lg", "p-4", "bg-white", "dark:bg-gray-800", "mx-auto", "px-4", "sm:px-6", "lg:px-8", "relative", "py-26", "lg:mt-20"], [1, "relative"], [1, "lg:grid", "lg:grid-flow-row-dense", "lg:grid-cols-2", "lg:gap-8", "lg:items-center"], [1, "lg:col-start-2", "lg:max-w-2xl", "ml-auto"], [1, "text-base", "leading-6", "text-gray-500", "font-semibold", "uppercase"], [1, "mt-2", "text-2xl", "leading-8", "font-mono", "font-extrabold", "text-gray-900", "dark:text-white", "sm:text-3xl", "sm:leading-9", "uppercase"], [1, "mt-4", "text-lg", "leading-6", "text-gray-500", "dark:text-gray-300"], [1, "mt-8", "md:grid", "md:grid-cols-2", "gap-6"], [1, "mt-6", "lg:mt-0"], [1, "flex"], [1, "flex-shrink-0", "flex", "items-center", "justify-center", "h-6", "w-6", "rounded-full", "bg-green-100", "text-green-800", "dark:text-green-500", "drark:bg-transparent"], ["viewBox", "0 0 20 20", "fill", "currentColor", 1, "h-4", "w-4"], ["fill-rule", "evenodd", "d", "M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z", "clip-rule", "evenodd"], [1, "ml-4", "text-base", "leading-6", "font-medium", "text-gray-500", "dark:text-gray-200"], [1, "mt-10", "lg:-mx-4", "relative", "relative-20", "lg:mt-0", "lg:col-start-1"], [1, "flex", "items-center", "mt-10", "lg:-mx-4", "gap-8", "p-8"], ["src", "../../../assets/fotocv2.jpeg", "alt", "Tree", 1, "rounded-lg", "w-1/2"], ["src", "../../../assets/IMG_9221.JPG", "alt", "Tree", 1, "rounded-lg", "mb-8"], ["src", "../../../assets/fotoarriba.jpeg", "alt", "Tree", 1, "rounded-lg"]], template: function PrincipalComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -615,7 +615,7 @@ PrincipalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "span", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " JAVASCRIPT ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " TYPSCRIPT ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -629,7 +629,7 @@ PrincipalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "span", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " ANGULAR ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " IONIC ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -643,18 +643,46 @@ PrincipalComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "span", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " REACT ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " JAVASCRIPT ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "span", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "svg", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "path", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "span", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " ANGULAR ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "span", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "svg", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "path", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceHTML"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "span", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, " REACT ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "img", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "img", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "img", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

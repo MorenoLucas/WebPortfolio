@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {}
   goEmigrando() {
-    window.open('https://www.emigrandoenpareja.es', '_blank');
+    window.open('https://emigrandoweb-139b8.web.app/', '_blank');
   }
   goTienda() {
     window.open('https://tienda-bolsos.web.app/productos', '_blank');
