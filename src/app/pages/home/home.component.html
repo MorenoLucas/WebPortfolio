@@ -4,7 +4,7 @@
     &mdash; Front End Developer &mdash;
   </p>
 </div>
-
+<div *ngIf="!presentacion"> 
 <div
   class="
     bg-gray-500
@@ -54,3 +54,4 @@
 <app-about *ngIf="about" (click)="mostrarAbout()"></app-about>
 <app-contact *ngIf="contact" (click)="mostrarContact()"></app-contact>
 <app-principal *ngIf="logos"></app-principal>
+</div>
